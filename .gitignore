@@ -1,0 +1,33 @@
+# ──────────────────────────────────────────────
+# Node / Frontend
+# ──────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ──────────────────────────────────────────────
+# Java / Maven / Spring Boot
+# ──────────────────────────────────────────────
+backend/target/
+backend/.mvn/wrapper/
+*.class
+*.jar
+*.war
+
+# ──────────────────────────────────────────────
+# IDE / OS
+# ──────────────────────────────────────────────
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ──────────────────────────────────────────────
+# Secrets / env
+# ──────────────────────────────────────────────
+.env
+.env.local
+*.env.production
+application-prod.yml
+uploads/
